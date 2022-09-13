@@ -1,0 +1,27 @@
+[
+  {
+      code: "agedwood",
+      sealHours: 48,
+      ingredients: [
+      { type: "item", code: "game:brineportion", litres: 1, consumeLitres: 1
+      },
+      { type: "block", code: "game:log-placed-*-ud", quantity: 1, name: "log", allowedVariants: [
+          "birch",
+          "oak",
+          "maple",
+          "pine",
+          "acacia",
+          "kapok",
+          "baldcypress",
+          "larch",
+          "redwood",
+          "ebony",
+          "walnut",
+          "purpleheart"
+        ]
+      }
+    ],
+      output: { type: "block", code: "game:log-placed-aged-ud", stackSize: 1
+    }
+  }
+]

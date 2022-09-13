@@ -1,0 +1,40 @@
+[
+  {
+		ingredientPattern: "HCR,GPP,GPP",
+		ingredients: {
+      "H": { type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5
+      },
+      "C": { type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5
+      },
+      "R": { type: "Item", code: "game:ore-cinnabar", quantity: 3
+      },
+      "P": { type: "Item", code: "game:plank-aged", quantity: 2
+      },
+      "G": { type: "Item", code: "game:hoop-gold", quantity: 2
+      }
+    },
+		width: 3,
+		height: 3,
+		output: { type: "Block", code: "game:chest-east", attributes: { type: "golden"
+      }, quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "HCQ,_PP,_PP",
+		ingredients: {
+      "H": { type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5
+      },
+      "C": { type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5
+      },
+      "Q": { type: "Item", code: "game:clearquartz", quantity: 2
+      },
+      "P": { type: "Item", code: "game:plank-aged", quantity: 2
+      }
+    },
+		width: 3,
+		height: 3,
+		output: { type: "Block", code: "game:chest-east", attributes: { type: "owl"
+      }, quantity: 1
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "salty",
+  "name": "Salty",
+  "authors": [
+    "Kane Thornwyrd"
+  ],
+  "translators": [],
+  "description": "Fix my frustration, one recipe at a time.",
+  "version": "1.0.0",
+  "dependency": {
+    "game": "1.16.5"
+  }
+}

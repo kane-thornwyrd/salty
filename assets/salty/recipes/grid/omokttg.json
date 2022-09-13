@@ -1,0 +1,24 @@
+[
+  {
+		ingredientPattern: "W_B,PPP",
+		ingredients: {
+      "W": { type: "Item", code: "game:stone-*", quantity: 1, name: "white", allowedVariants: [
+          "whitemarble",
+          "chalk"
+        ]
+      },
+      "B": { type: "Item", code: "game:stone-*", quantity: 1, name: "black", allowedVariants: [
+          "shale",
+          "basalt",
+          "obsidian"
+        ]
+      },
+      "P": { type: "Item", code: "game:plank-*"
+      }
+    },
+		width: 3,
+		height: 2,
+		output: { type: "Block", code: "game:omoktabletop", quantity: 1
+    }
+  }
+]

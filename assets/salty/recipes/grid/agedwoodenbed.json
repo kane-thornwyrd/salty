@@ -1,0 +1,29 @@
+[
+  {
+    "ingredientPattern": "C__,LLL,PPP",
+    "ingredients": {
+      "C": {
+        "type": "Block",
+        "code": "game:linen-*-down",
+        "quantity": 2
+      },
+      "L": {
+        "type": "Block",
+        "code": "game:linen-*-down",
+        "quantity": 3
+      },
+      "P": {
+        "type": "Item",
+        "code": "game:plank-aged",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:bed-woodaged-head-north",
+      "quantity": 1
+    }
+  }
+]

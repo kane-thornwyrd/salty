@@ -1,0 +1,82 @@
+[
+  {
+    "op": "remove",
+    "path": "/dropsByType/*-none",
+    "file": "game:blocktypes/locustnest/metalspikes.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-large/2",
+    "value": {
+      "type": "block",
+      "code": "locustnest-metalspike-none",
+      "quantity": {
+        "avg": 0.85
+      }
+    },
+    "file": "game:blocktypes/locustnest/metalspikes.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-medium/2",
+    "value": {
+      "type": "block",
+      "code": "locustnest-metalspike-none",
+      "quantity": {
+        "avg": 0.85
+      }
+    },
+    "file": "game:blocktypes/locustnest/metalspikes.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-small/2",
+    "value": {
+      "type": "block",
+      "code": "locustnest-metalspike-none",
+      "quantity": {
+        "avg": 0.85
+      }
+    },
+    "file": "game:blocktypes/locustnest/metalspikes.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-tiny/2",
+    "value": {
+      "type": "block",
+      "code": "locustnest-metalspike-none",
+      "quantity": {
+        "avg": 0.85
+      }
+    },
+    "file": "game:blocktypes/locustnest/metalspikes.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-none": {
+        "meltingPoint": 1154,
+        "meltingDuration": 30,
+        "smeltedRatio": 6,
+        "smeltedStack": {
+          "type": "item",
+          "code": "ironbloom",
+          "stacksize": 1
+        }
+      },
+      "*-none-upsidedown": {
+        "meltingPoint": 1154,
+        "meltingDuration": 30,
+        "smeltedRatio": 6,
+        "smeltedStack": {
+          "type": "item",
+          "code": "ironbloom",
+          "stacksize": 1
+        }
+      }
+    },
+    "file": "blocktypes/locustnest/metalspikes.json"
+  }
+]

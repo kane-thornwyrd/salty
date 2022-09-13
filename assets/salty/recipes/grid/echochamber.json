@@ -1,0 +1,19 @@
+[
+  {
+		ingredientPattern: "PAP,SGP,PPP",
+		ingredients: {
+      "A": { type: "Item", code: "game:arrowhead-copper"
+      },
+      "P": { type: "Item", code: "game:plank-*"
+      },
+      "S": { type: "Block", code: "game:seashell-conch-*"
+      },
+      "G": { type: "Item", code: "game:gear-temporal"
+      }
+    },
+		width: 3,
+		height: 3,
+		output: { type: "Block", code: "game:echochamber-north", quantity: 1
+    }
+  }
+]

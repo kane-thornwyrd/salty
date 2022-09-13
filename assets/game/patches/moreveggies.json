@@ -1,0 +1,142 @@
+[
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 2.25,
+    "file": "blocktypes/plant/crop/flax.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 2.15,
+    "file": "blocktypes/plant/crop/onion.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-8/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/parsnip.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/peanut.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-16/0/quantity/avg",
+    "value": 4.25,
+    "file": "blocktypes/plant/crop/pineapple.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-16/1/quantity/avg",
+    "value": 3,
+    "file": "blocktypes/plant/crop/pineapple.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 2,
+    "file": "blocktypes/plant/crop/pineapple.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-10/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/rice.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/rye.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-11/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/soybean.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/spelt.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-12/0/quantity/avg",
+    "value": 2.15,
+    "file": "blocktypes/plant/crop/sunflower.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 2.15,
+    "file": "blocktypes/plant/crop/turnip.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/amaranth.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-12/0/quantity/avg",
+    "value": 2.25,
+    "file": "blocktypes/plant/crop/cabbage.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-12/1/quantity/avg",
+    "value": 1.95,
+    "file": "blocktypes/plant/crop/cabbage.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-7/0/quantity/avg",
+    "value": 2.05,
+    "file": "blocktypes/plant/crop/carrot.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 2.25,
+    "file": "blocktypes/plant/crop/cassava.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 2,
+    "file": "blocktypes/plant/crop/cassava.json"
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/output/quantity",
+    "value": 4,
+    "file": "recipes/grid/pumpkinseed.json"
+  }
+]

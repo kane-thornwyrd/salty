@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "_C_,CDC,_C_",
+    "ingredients": {
+      "C": {
+        "type": "Item",
+        "code": "game:metalplate-copper",
+        "quantity": 1
+      },
+      "D": {
+        "type": "Item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:shingleblock-copper",
+      "quantity": 1
+    }
+  }
+]

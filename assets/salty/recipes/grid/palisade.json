@@ -1,0 +1,89 @@
+[
+  {
+		ingredientPattern: "W",
+		ingredients: {
+      "W": { type: "Item", code: "game:firewood", quantity: 3
+      }
+    },
+		width: 1,
+		height: 1,
+		output: { type: "Block", code: "game:palisadewall-three-lower-west", quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "W",
+		ingredients: {
+      "W": { type: "Item", code: "game:firewood", quantity: 4
+      }
+    },
+		width: 1,
+		height: 1,
+		output: { type: "Block", code: "game:palisadewall-four-lower-west", quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "KP",
+		ingredients: {
+      "K": { type: "Item", code: "game:knife-*", isTool: true, toolDurabilityCost: 5
+      },
+      "P": { type: "Block", code: "game:palisadewall-three-lower-west", quantity: 1
+      }
+    },
+		width: 2,
+		height: 1,
+		output: { type: "Block", code: "game:palisadewall-three-top-west", quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "SP",
+		ingredients: {
+      "S": { type: "Item", code: "game:saw-*", isTool: true, toolDurabilityCost: 5
+      },
+      "P": { type: "Block", code: "game:palisadewall-three-top-west", quantity: 1
+      }
+    },
+		width: 2,
+		height: 1,
+		output: { type: "Block", code: "game:palisadewall-three-halftop-west", quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "KP",
+		ingredients: {
+      "K": { type: "Item", code: "game:knife-*", isTool: true, toolDurabilityCost: 5
+      },
+      "P": { type: "Block", code: "game:palisadewall-four-lower-west", quantity: 1
+      }
+    },
+		width: 2,
+		height: 1,
+		output: { type: "Block", code: "game:palisadewall-four-top-west", quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "SP",
+		ingredients: {
+      "S": { type: "Item", code: "game:saw-*", isTool: true, toolDurabilityCost: 5
+      },
+      "P": { type: "Block", code: "game:palisadewall-four-top-west", quantity: 1
+      }
+    },
+		width: 2,
+		height: 1,
+		output: { type: "Block", code: "game:palisadewall-four-halftop-west", quantity: 1
+    }
+  },
+  {
+		ingredientPattern: "P,W",
+		ingredients: {
+      "W": { type: "Item", code: "game:firewood", quantity: 1
+      },
+      "P": { type: "Block", code: "game:palisadewall-three-top-west", quantity: 1
+      }
+    },
+		width: 1,
+		height: 2,
+		output: { type: "Block", code: "game:palisadestakes-west", quantity: 1
+    }
+  }
+]

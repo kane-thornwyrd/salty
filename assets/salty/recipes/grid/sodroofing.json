@@ -1,0 +1,142 @@
+[
+  {
+    "ingredientPattern": "__S,PS_,S__",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:soil-*-none",
+        "name": "grade",
+        "allowedVariants": [
+          "medium",
+          "compost",
+          "high"
+        ],
+        "quantity": 1
+      },
+      "P": {
+        "type": "block",
+        "code": "game:peatbrick",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:slantedroofing-sod-east-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PS_,S_S",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:soil-*-none",
+        "name": "grade",
+        "allowedVariants": [
+          "medium",
+          "compost",
+          "high"
+        ],
+        "quantity": 1
+      },
+      "P": {
+        "type": "block",
+        "code": "game:peatbrick",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:slantedroofingridge-sod-ns-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PS_,SSS",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:soil-*-none",
+        "name": "grade",
+        "allowedVariants": [
+          "medium",
+          "compost",
+          "high"
+        ],
+        "quantity": 1
+      },
+      "P": {
+        "type": "block",
+        "code": "game:peatbrick",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:slantedroofingtip-sod-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_S_,SP_,_S_",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:soil-*-none",
+        "name": "grade",
+        "allowedVariants": [
+          "medium",
+          "compost",
+          "high"
+        ],
+        "quantity": 1
+      },
+      "P": {
+        "type": "block",
+        "code": "game:peatbrick",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:slantedroofingcornerinner-sod-east-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PS,SS",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:soil-*-none",
+        "name": "grade",
+        "allowedVariants": [
+          "medium",
+          "compost",
+          "high"
+        ],
+        "quantity": 1
+      },
+      "P": {
+        "type": "block",
+        "code": "game:peatbrick",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:slantedroofingcornerouter-sod-east-free",
+      "quantity": 4
+    }
+  }
+]

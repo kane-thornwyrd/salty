@@ -1,0 +1,23 @@
+﻿[
+	{
+      code: "salt",
+      sealHours: 168,
+      ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 50, consumeLitres: 50
+			},
+			{ type: "block", code: "game:sand-*", quantity: 50, name: "sand", allowedVariants: [
+					"andesite",
+					"chert",
+					"conglomerate",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt"
+				]
+			}
+		],
+      output: { type: "item", code: "game:salt", stackSize: 250
+		}
+	}
+]
