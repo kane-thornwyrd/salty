@@ -1,0 +1,50 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "bismuth",
+        "bismuthbronze",
+        "blackbronze",
+        "brass",
+        "chromium",
+        "copper",
+        "gold",
+        "iron",
+        "meteoriciron",
+        "lead",
+        "molybdochalkos",
+        "platinum",
+        "rhodium",
+        "silver",
+        "stainlesssteel",
+        "steel",
+        "tin",
+        "tinbronze",
+        "titanium",
+        "uranium",
+        "zinc"
+      ]
+    },
+    "pattern": [
+      [
+        "_##_##_##_",
+        "##########",
+        "##########",
+        "_##_##_##_",
+        "_##_##_##_",
+        "_##_##_##_",
+        "##########",
+        "##########",
+        "_##_##_##_"
+      ]
+    ],
+    "output": {
+      "type": "block",
+      "code": "metalfence-{metal}-ew-free",
+      "quantity": 4
+    }
+  }
+]

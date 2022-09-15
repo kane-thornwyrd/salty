@@ -1,15 +1,23 @@
 [
   {
-		ingredientPattern: "PPP,PSP,PPP",
-		ingredients: {
-      "P": { type: "Item", code: "game:plank-*"
+    "ingredientPattern": "PPP,PSP,PPP",
+    "ingredients": {
+      "P": {
+        "type": "Item",
+        "code": "game:plank-*"
       },
-      "S": { type: "Item", code: "game:paper-parchment", quantity: 10
+      "S": {
+        "type": "Item",
+        "code": "game:paper-parchment",
+        "quantity": 10
       }
     },
-		width: 3,
-		height: 3,
-		output: { type: "Block", code: "game:bookshelves-ns", quantity: 1
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:bookshelves-ns",
+      "quantity": 1
     }
   }
 ]

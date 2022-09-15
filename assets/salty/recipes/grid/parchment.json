@@ -1,54 +1,90 @@
 [
   {
-		ingredientPattern: "SH",
-		ingredients: {
-      "H": { type: "Item", code: "game:hide-prepared-small"
+    "ingredientPattern": "SH",
+    "ingredients": {
+      "H": {
+        "type": "Item",
+        "code": "game:hide-prepared-small"
       },
-      "S": { type: "Item", code: "game:shears-*", isTool: true, toolDurabilityCost: 1
+      "S": {
+        "type": "Item",
+        "code": "game:shears-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
       }
     },
-		width: 2,
-		height: 1,
-		output: { type: "Item", code: "game:paper-parchment", quantity: 1
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Item",
+      "code": "game:paper-parchment",
+      "quantity": 1
     }
   },
   {
-		ingredientPattern: "SH",
-		ingredients: {
-      "H": { type: "Item", code: "game:hide-prepared-medium"
+    "ingredientPattern": "SH",
+    "ingredients": {
+      "H": {
+        "type": "Item",
+        "code": "game:hide-prepared-medium"
       },
-      "S": { type: "Item", code: "game:shears-*", isTool: true, toolDurabilityCost: 1
+      "S": {
+        "type": "Item",
+        "code": "game:shears-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
       }
     },
-		width: 2,
-		height: 1,
-		output: { type: "Item", code: "game:paper-parchment", quantity: 4
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Item",
+      "code": "game:paper-parchment",
+      "quantity": 4
     }
   },
   {
-		ingredientPattern: "SH",
-		ingredients: {
-      "H": { type: "Item", code: "game:hide-prepared-large"
+    "ingredientPattern": "SH",
+    "ingredients": {
+      "H": {
+        "type": "Item",
+        "code": "game:hide-prepared-large"
       },
-      "S": { type: "Item", code: "game:shears-*", isTool: true, toolDurabilityCost: 1
+      "S": {
+        "type": "Item",
+        "code": "game:shears-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
       }
     },
-		width: 2,
-		height: 1,
-		output: { type: "Item", code: "game:paper-parchment", quantity: 8
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Item",
+      "code": "game:paper-parchment",
+      "quantity": 8
     }
   },
   {
-		ingredientPattern: "SH",
-		ingredients: {
-      "H": { type: "Item", code: "game:hide-prepared-huge"
+    "ingredientPattern": "SH",
+    "ingredients": {
+      "H": {
+        "type": "Item",
+        "code": "game:hide-prepared-huge"
       },
-      "S": { type: "Item", code: "game:shears-*", isTool: true, toolDurabilityCost: 1
+      "S": {
+        "type": "Item",
+        "code": "game:shears-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
       }
     },
-		width: 2,
-		height: 1,
-		output: { type: "Item", code: "game:paper-parchment", quantity: 16
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Item",
+      "code": "game:paper-parchment",
+      "quantity": 16
     }
   }
 ]

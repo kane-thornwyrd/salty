@@ -1,50 +1,86 @@
 [
   {
-      code: "soil",
-      sealHours: 1,
-      ingredients: [
-      { type: "item", code: "game:salt", quantity: 1
+    "code": "soil",
+    "sealHours": 1,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:salt",
+        "quantity": 1
       },
-      { type: "block", code: "game:soil-high-none", quantity: 50
+      {
+        "type": "block",
+        "code": "game:soil-high-none",
+        "quantity": 50
       }
     ],
-      output: { type: "block", code: "game:soil-compost-none", stackSize: 50
+    "output": {
+      "type": "block",
+      "code": "game:soil-compost-none",
+      "stackSize": 50
     }
   },
   {
-    code: "soil",
-    sealHours: 1,
-    ingredients: [
-      { type: "item", code: "game:salt", quantity: 1
+    "code": "soil",
+    "sealHours": 1,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:salt",
+        "quantity": 1
       },
-      { type: "block", code: "game:soil-compost-none", quantity: 50
+      {
+        "type": "block",
+        "code": "game:soil-compost-none",
+        "quantity": 50
       }
     ],
-    output: { type: "block", code: "game:soil-medium-none", stackSize: 50
+    "output": {
+      "type": "block",
+      "code": "game:soil-medium-none",
+      "stackSize": 50
     }
   },
   {
-    code: "soil",
-    sealHours: 1,
-    ingredients: [
-      { type: "item", code: "game:salt", quantity: 1
+    "code": "soil",
+    "sealHours": 1,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:salt",
+        "quantity": 1
       },
-      { type: "block", code: "game:soil-medium-none", quantity: 50
+      {
+        "type": "block",
+        "code": "game:soil-medium-none",
+        "quantity": 50
       }
     ],
-    output: { type: "block", code: "game:soil-low-none", stackSize: 50
+    "output": {
+      "type": "block",
+      "code": "game:soil-low-none",
+      "stackSize": 50
     }
   },
   {
-    code: "soil",
-    sealHours: 1,
-    ingredients: [
-      { type: "item", code: "game:salt", quantity: 1
+    "code": "soil",
+    "sealHours": 1,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:salt",
+        "quantity": 1
       },
-      { type: "block", code: "game:soil-low-none", quantity: 50
+      {
+        "type": "block",
+        "code": "game:soil-low-none",
+        "quantity": 50
       }
     ],
-    output: { type: "block", code: "game:soil-verylow-none", stackSize: 50
+    "output": {
+      "type": "block",
+      "code": "game:soil-verylow-none",
+      "stackSize": 50
     }
-  },
+  }
 ]

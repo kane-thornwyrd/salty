@@ -1,0 +1,93 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "bismuth",
+        "bismuthbronze",
+        "blackbronze",
+        "brass",
+        "chromium",
+        "copper",
+        "gold",
+        "iron",
+        "meteoriciron",
+        "lead",
+        "molybdochalkos",
+        "platinum",
+        "rhodium",
+        "silver",
+        "stainlesssteel",
+        "steel",
+        "tin",
+        "tinbronze",
+        "titanium",
+        "uranium",
+        "zinc"
+      ]
+    },
+    "pattern": [
+      [
+        "_#_#_#_",
+        "#######",
+        "_#_#_#_",
+        "_#_#_#_",
+        "_#_#_#_",
+        "#######",
+        "_#_#_#_"
+      ]
+    ],
+    "output": {
+      "type": "block",
+      "code": "slimmetalfence-{metal}-base-ew",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "bismuth",
+        "bismuthbronze",
+        "blackbronze",
+        "brass",
+        "chromium",
+        "copper",
+        "gold",
+        "iron",
+        "meteoriciron",
+        "lead",
+        "molybdochalkos",
+        "platinum",
+        "rhodium",
+        "silver",
+        "stainlesssteel",
+        "steel",
+        "tin",
+        "tinbronze",
+        "titanium",
+        "zinc"
+      ]
+    },
+    "pattern": [
+      [
+        "_#####_",
+        "#######",
+        "_#_#_#_",
+        "_#_#_#_",
+        "_#_#_#_",
+        "#######",
+        "_#_#_#_"
+      ]
+    ],
+    "output": {
+      "type": "block",
+      "code": "slimmetalfence-{metal}-top-ew",
+      "quantity": 4
+    }
+  }
+]

@@ -59,6 +59,9 @@
     "decorative": [
       "*-candle0",
       "*-candle8"
+    ],
+    "salty": [
+      "*-candle0"
     ]
   },
   "textures": {
@@ -131,7 +134,7 @@
   "drops": [
     {
       "type": "item",
-      "code": "candle",
+      "code": "game:candle",
       "quantityByType": {
         "*0": {
           "avg": 0
@@ -164,7 +167,7 @@
     },
     {
       "type": "block",
-      "code": "game:customchandelier-{metal}-candle0"
+      "code": "salty:customchandelier-{metal}-candle0"
     }
   ],
   "lightAbsorption": 0,

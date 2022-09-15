@@ -55,7 +55,7 @@
   "combustiblePropsByType": {
     "chandeliermold-raw": {
       "meltingPoint": 600,
-      "meltingDuration": 45,
+      "meltingDuration": 24,
       "smeltedRatio": 1,
       "smeltingType": "fire",
       "smeltedStack": {

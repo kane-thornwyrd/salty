@@ -1,29 +1,47 @@
 [
 	{
-		ingredientPattern: "A,F",
-		ingredients: {
-			"A": { type: "Item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1
+		"ingredientPattern": "A,F",
+		"ingredients": {
+			"A": {
+				"type": "Item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
-			"F": { type: "Item", code: "game:firewood"
+			"F": {
+				"type": "Item",
+				"code": "game:firewood"
 			}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 1,
-		output: { type: "Item", code: "game:stick", quantity: 4
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 1,
+		"output": {
+			"type": "Item",
+			"code": "game:stick",
+			"quantity": 4
 		}
 	},
 	{
-		ingredientPattern: "K,F",
-		ingredients: {
-			"K": {type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10
+		"ingredientPattern": "K,F",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 10
 			},
-			"F": {type: "item", code: "game:firewood"
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
 			}
 		},
-		width: 1,
-		height: 2,
-		output: {type: "item", code: "game:stick", quantity: 2
+		"width": 1,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 2
 		}
 	}
 ]

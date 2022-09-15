@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "file": "game:recipes/grid/chair.json",
+    "path": "/0/ingredients/W",
+    "value": {
+      "type": "item",
+      "code": "plank-*",
+      "quantity": 1,
+      "allowedVariants": [
+        "birch",
+        "oak",
+        "maple",
+        "pine",
+        "acacia",
+        "kapok",
+        "baldcypress",
+        "larch",
+        "redwood",
+        "ebony",
+        "walnut",
+        "purpleheart"
+      ]
+    }
+  }
+]

@@ -17,7 +17,7 @@
     "height": 3,
     "output": {
       "type": "Block",
-      "code": "game:shingleblock-copper",
+      "code": "shingleblock-copper",
       "quantity": 1
     }
   }

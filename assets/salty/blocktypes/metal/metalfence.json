@@ -27,13 +27,26 @@
     {
       "code": "metal",
       "states": [
-        "iron",
-        "gold",
         "bismuth",
-        "copper",
+        "bismuthbronze",
+        "blackbronze",
         "brass",
+        "chromium",
+        "copper",
+        "gold",
+        "iron",
+        "meteoriciron",
+        "lead",
+        "molybdochalkos",
+        "platinum",
+        "rhodium",
+        "silver",
+        "stainlesssteel",
+        "steel",
+        "tin",
         "tinbronze",
-        "lead"
+        "titanium",
+        "zinc"
       ]
     },
     {
@@ -71,133 +84,136 @@
     ],
     "decorative": [
       "metalfence-*-ew-free"
+    ],
+    "salty": [
+      "metalfence-*-ew-free"
     ]
   },
   "shapebytype": {
     "*-empty-free": {
-      "base": "block/wood/fence/empty"
+      "base": "game:block/wood/fence/empty"
     },
     "*-n-free": {
-      "base": "block/wood/fence/w",
+      "base": "game:block/wood/fence/w",
       "rotateY": 270
     },
     "*-e-free": {
-      "base": "block/wood/fence/w",
+      "base": "game:block/wood/fence/w",
       "rotateY": 180
     },
     "*-s-free": {
-      "base": "block/wood/fence/w",
+      "base": "game:block/wood/fence/w",
       "rotateY": 90
     },
     "*-w-free": {
-      "base": "block/wood/fence/w",
+      "base": "game:block/wood/fence/w",
       "rotateY": 0
     },
     "*-ns-free": {
-      "base": "block/wood/fence/ew",
+      "base": "game:block/wood/fence/ew",
       "rotateY": 90
     },
     "*-ew-free": {
-      "base": "block/wood/fence/ew",
+      "base": "game:block/wood/fence/ew",
       "rotateY": 0
     },
     "*-ne-free": {
-      "base": "block/wood/fence/sw",
+      "base": "game:block/wood/fence/sw",
       "rotateY": 180
     },
     "*-nw-free": {
-      "base": "block/wood/fence/sw",
+      "base": "game:block/wood/fence/sw",
       "rotateY": 270
     },
     "*-es-free": {
-      "base": "block/wood/fence/sw",
+      "base": "game:block/wood/fence/sw",
       "rotateY": 90
     },
     "*-sw-free": {
-      "base": "block/wood/fence/sw",
+      "base": "game:block/wood/fence/sw",
       "rotateY": 0
     },
     "*-nes-free": {
-      "base": "block/wood/fence/nsw",
+      "base": "game:block/wood/fence/nsw",
       "rotateY": 180
     },
     "*-new-free": {
-      "base": "block/wood/fence/nsw",
+      "base": "game:block/wood/fence/nsw",
       "rotateY": 270
     },
     "*-nsw-free": {
-      "base": "block/wood/fence/nsw",
+      "base": "game:block/wood/fence/nsw",
       "rotateY": 0
     },
     "*-esw-free": {
-      "base": "block/wood/fence/nsw",
+      "base": "game:block/wood/fence/nsw",
       "rotateY": 90
     },
     "*-nesw-free": {
-      "base": "block/wood/fence/nesw",
+      "base": "game:block/wood/fence/nesw",
       "rotateY": 0
     },
     "*-empty-snow": {
-      "base": "block/wood/fence/snow-empty"
+      "base": "game:block/wood/fence/snow-empty"
     },
     "*-n-snow": {
-      "base": "block/wood/fence/snow-w",
+      "base": "game:block/wood/fence/snow-w",
       "rotateY": 270
     },
     "*-e-snow": {
-      "base": "block/wood/fence/snow-w",
+      "base": "game:block/wood/fence/snow-w",
       "rotateY": 180
     },
     "*-s-snow": {
-      "base": "block/wood/fence/snow-w",
+      "base": "game:block/wood/fence/snow-w",
       "rotateY": 90
     },
     "*-w-snow": {
-      "base": "block/wood/fence/snow-w",
+      "base": "game:block/wood/fence/snow-w",
       "rotateY": 0
     },
     "*-ns-snow": {
-      "base": "block/wood/fence/snow-ew",
+      "base": "game:block/wood/fence/snow-ew",
       "rotateY": 90
     },
     "*-ew-snow": {
-      "base": "block/wood/fence/snow-ew",
+      "base": "game:block/wood/fence/snow-ew",
       "rotateY": 0
     },
     "*-ne-snow": {
-      "base": "block/wood/fence/snow-sw",
+      "base": "game:block/wood/fence/snow-sw",
       "rotateY": 180
     },
     "*-nw-snow": {
-      "base": "block/wood/fence/snow-sw",
+      "base": "game:block/wood/fence/snow-sw",
       "rotateY": 270
     },
     "*-es-snow": {
-      "base": "block/wood/fence/snow-sw",
+      "base": "game:block/wood/fence/snow-sw",
       "rotateY": 90
     },
     "*-sw-snow": {
-      "base": "block/wood/fence/snow-sw",
+      "base": "game:block/wood/fence/snow-sw",
       "rotateY": 0
     },
     "*-nes-snow": {
-      "base": "block/wood/fence/snow-nsw",
+      "base": "game:block/wood/fence/snow-nsw",
       "rotateY": 180
     },
     "*-new-snow": {
-      "base": "block/wood/fence/snow-nsw",
+      "base": "game:block/wood/fence/snow-nsw",
       "rotateY": 270
     },
     "*-nsw-snow": {
-      "base": "block/wood/fence/snow-nsw",
+      "base": "game:block/wood/fence/snow-nsw",
       "rotateY": 0
     },
     "*-esw-snow": {
-      "base": "block/wood/fence/snow-nsw",
+      "base": "game:block/wood/fence/snow-nsw",
       "rotateY": 90
     },
     "*-nesw-snow": {
-      "base": "block/wood/fence/snow-nesw",
+      "base": "game:block/wood/fence/snow-nesw",
       "rotateY": 0
     }
   },
@@ -205,14 +221,14 @@
     "*-free": "JSON",
     "*-snow": "JSONAndSnowLayer"
   },
-  "blockmaterial": "Metal",
+  "game:blockmaterial": "Metal",
   "textures": {
     "horizontal": {
       "baseByType": {
         "*": "game:block/metal/ingot/{metal}"
       },
       "overlays": [
-        "block/slightlydarker"
+        "game:block/slightlydarker"
       ]
     },
     "vertical": {
@@ -234,10 +250,9 @@
     "reflective": true
   },
   "sounds": {
-    "place": "game:block/chute",
-    "hit": "game:block/chute",
-    "break": "game:block/chute",
-    "walk": "game:block/chute"
+    "place": "game:block/metaldoor-place",
+    "hit": "game:block/metaldoor-place",
+    "break": "game:block/metaldoor-place"
   },
   "selectionboxbytype": {
     "*-empty-*": {

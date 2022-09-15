@@ -1,24 +1,42 @@
 [
   {
-		ingredientPattern: "W_B,PPP",
-		ingredients: {
-      "W": { type: "Item", code: "game:stone-*", quantity: 1, name: "white", allowedVariants: [
+    "ingredientPattern": "W_B,PPP",
+    "ingredients": {
+      "W": {
+        "type": "Item",
+        "code": "game:stone-*",
+        "quantity": 1,
+        "name": "white",
+        "allowedVariants": [
           "whitemarble",
           "chalk"
         ]
       },
-      "B": { type: "Item", code: "game:stone-*", quantity: 1, name: "black", allowedVariants: [
+      "B": {
+        "type": "Item",
+        "code": "game:stone-*",
+        "quantity": 1,
+        "name": "black",
+        "allowedVariants": [
           "shale",
           "basalt",
           "obsidian"
         ]
       },
-      "P": { type: "Item", code: "game:plank-*"
+      "P": {
+        "type": "Item",
+        "code": "game:plank-*",
+        "allowedVariants": [
+          "aged"
+        ]
       }
     },
-		width: 3,
-		height: 2,
-		output: { type: "Block", code: "game:omoktabletop", quantity: 1
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:omoktabletop",
+      "quantity": 1
     }
   }
 ]

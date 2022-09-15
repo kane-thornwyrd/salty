@@ -1,2 +1,2 @@
 #! /bin/sh
-mono /usr/share/vintagestory/Vintagestory.exe --addModPath "$PWD/.." --rndWorld -p creativebuilding --dataPath "$PWD/data"
+mono ./vintagestory/Vintagestory.exe --addModPath "$PWD/.." --dataPath "$PWD/vintagestory" --rndWorld -p creativebuilding
