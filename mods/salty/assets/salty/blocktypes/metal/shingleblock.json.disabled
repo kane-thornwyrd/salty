@@ -1,4 +1,5 @@
 {
+  "_disabled" : {
   "code": "shingleblock",
   "attributes": {
     "handbook": {
@@ -66,4 +67,5 @@
     },
     "scale": 0.4
   }
+}
 }

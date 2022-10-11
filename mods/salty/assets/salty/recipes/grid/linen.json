@@ -1,0 +1,97 @@
+[
+  {
+    "ingredientPattern": "S,L",
+    "ingredients": {
+      "L": {
+        "type": "Block",
+        "code": "game:linen-*-down",
+        "quantity": 16,
+        "allowedVariants": [
+          "normal",
+          "offset",
+          "square"
+        ]
+      },
+      "S": {
+        "type": "Item",
+        "code": "game:sewingkit",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:linen-diamond-down",
+      "quantity": 16
+    }
+  },
+  {
+    "comment": [
+      {
+        "ingredientPattern": "SL",
+        "ingredients": {
+          "L": {
+            "type": "Block",
+            "code": "game:linen-*-down",
+            "quantity": 16
+          },
+          "S": {
+            "type": "Item",
+            "code": "game:sewingkit",
+            "isTool": true,
+            "toolDurabilityCost": 0
+          }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {
+          "type": "Block",
+          "code": "game:linen-square-down",
+          "quantity": 16
+        }
+      },
+      {
+        "ingredientPattern": "L,S",
+        "ingredients": {
+          "L": {
+            "type": "Block",
+            "code": "game:linen-*-down",
+            "quantity": 16
+          },
+          "S": {
+            "type": "Item",
+            "code": "game:sewingkit",
+            "isTool": true,
+            "toolDurabilityCost": 0
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "Block",
+          "code": "game:linen-offset-down",
+          "quantity": 16
+        }
+      },
+      {
+        "ingredientPattern": "L",
+        "ingredients": {
+          "L": {
+            "type": "Block",
+            "code": "game:linen-*-down",
+            "quantity": 16
+          }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+          "type": "Block",
+          "code": "game:linen-normal-down",
+          "quantity": 16
+        }
+      }
+    ]
+  }
+]
