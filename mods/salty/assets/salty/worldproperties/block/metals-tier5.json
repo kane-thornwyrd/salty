@@ -1,0 +1,23 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "chromium",
+      "meltPoint": 1907,
+      "boilPoint": 2671,
+      "density": 7150,
+      "specificHeatCapacity": 0.46,
+      "elemental": true,
+      "tier": 5
+    },
+    {
+      "code": "stainlesssteel",
+      "meltPoint": 1530,
+      "boilPoint": 2800,
+      "density": 7700,
+      "specificHeatCapacity": 0.5,
+      "elemental": false,
+      "tier": 5
+    }
+  ]
+}

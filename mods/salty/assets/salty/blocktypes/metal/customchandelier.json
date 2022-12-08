@@ -64,12 +64,14 @@
       "*-candle0"
     ]
   },
-  "textures": {
-    "blackbronze": {
-      "base": "game:block/metal/ingot/{metal}"
-    },
-    "candle": {
-      "base": "game:block/candle"
+  "texturesbyType": {
+    "customchandelier-*-*": {
+      "blackbronze": {
+        "base": "game:block/metal/ingot/{metal}"
+      },
+      "candle": {
+        "base": "game:block/candle"
+      }
     }
   },
   "shape": {
@@ -171,9 +173,7 @@
     }
   ],
   "lightAbsorption": 0,
-  "vertexFlags": {
-    "reflective": true
-  },
+  "vertexFlags": { "reflective": true },
   "collisionSelectionBox": {
     "x1": 0.0625,
     "y1": 0,

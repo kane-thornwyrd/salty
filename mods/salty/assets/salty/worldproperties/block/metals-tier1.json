@@ -1,0 +1,50 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "bismuth",
+      "meltPoint": 217.5,
+      "boilPoint": 1564.0,
+      "density": 9750,
+      "specificHeatCapacity": 0.13,
+      "elemental": true,
+      "tier": 1
+    },
+    {
+      "code": "copper",
+      "meltPoint": 1084.62,
+      "boilPoint": 2562,
+      "density": 8960,
+      "specificHeatCapacity": 0.39,
+      "elemental": true,
+      "tier": 1
+    },
+    {
+      "code": "gold",
+      "meltPoint": 1064.18,
+      "boilPoint": 2970,
+      "density": 19300,
+      "specificHeatCapacity": 0.13,
+      "elemental": true,
+      "tier": 1
+    },
+    {
+      "code": "silver",
+      "meltPoint": 961.78,
+      "boilPoint": 2162,
+      "density": 10500,
+      "specificHeatCapacity": 0.23,
+      "elemental": true,
+      "tier": 1
+    },
+    {
+      "code": "zinc",
+      "meltPoint": 419,
+      "boilPoint": 906,
+      "density": 7140,
+      "specificHeatCapacity": 0.39,
+      "elemental": true,
+      "tier": 1
+    }
+  ]
+}

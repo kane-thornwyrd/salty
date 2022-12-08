@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "_P_,PC_,_P_",
+    "ingredients": {
+      "C": {
+        "type": "Item",
+        "code": "game:clay-blue",
+        "quantity": 1
+      },
+      "P": {
+        "type": "Block",
+        "code": "game:peatbrick",
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:slantedroofingcornerinner-sod-east-free",
+      "quantity": 4
+    }
+  }
+]

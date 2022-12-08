@@ -1,0 +1,23 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "steel",
+      "meltPoint": 1502,
+      "boilPoint": 2900,
+      "density": 7820,
+      "specificHeatCapacity": 0.49,
+      "elemental": false,
+      "tier": 4
+    },
+    {
+      "code": "tin",
+      "meltPoint": 231.93,
+      "boilPoint": 2602,
+      "density": 0.21,
+      "specificHeatCapacity": 0.21,
+      "elemental": true,
+      "tier": 4
+    }
+  ]
+}

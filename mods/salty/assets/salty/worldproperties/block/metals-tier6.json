@@ -1,0 +1,32 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "platinum",
+      "meltPoint": 1770,
+      "boilPoint": 3825,
+      "density": 21500,
+      "specificHeatCapacity": 0.13,
+      "elemental": true,
+      "tier": 6
+    },
+    {
+      "code": "tinbronze",
+      "meltPoint": 950,
+      "boilPoint": 2300,
+      "density": 7600,
+      "specificHeatCapacity": 0.435,
+      "elemental": false,
+      "tier": 2
+    },
+    {
+      "code": "titanium",
+      "meltPoint": 1668,
+      "boilPoint": 3287,
+      "density": 4510,
+      "specificHeatCapacity": 0.54,
+      "elemental": true,
+      "tier": 6
+    }
+  ]
+}

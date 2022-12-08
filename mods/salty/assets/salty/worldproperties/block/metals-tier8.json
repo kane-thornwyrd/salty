@@ -1,0 +1,14 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "uranium",
+      "meltPoint": 1133,
+      "boilPoint": 3800,
+      "density": 18900,
+      "specificHeatCapacity": 0.12,
+      "elemental": true,
+      "tier": 8
+    }
+  ]
+}

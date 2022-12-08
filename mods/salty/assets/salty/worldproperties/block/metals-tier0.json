@@ -1,0 +1,23 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "lead",
+      "meltPoint": 327.46,
+      "boilPoint": 1749,
+      "density": 11300,
+      "specificHeatCapacity": 0.13,
+      "elemental": true,
+      "tier": 0
+    },
+    {
+      "code": "molybdochalkos",
+      "meltPoint": 902,
+      "boilPoint": 1760,
+      "density": 9600,
+      "specificHeatCapacity": 0.2,
+      "elemental": false,
+      "tier": 0
+    }
+  ]
+}

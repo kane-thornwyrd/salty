@@ -1,0 +1,14 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "rhodium",
+      "meltPoint": 1964,
+      "boilPoint": 3695,
+      "density": 0.24,
+      "specificHeatCapacity": 0.24,
+      "elemental": true,
+      "tier": 7
+    }
+  ]
+}

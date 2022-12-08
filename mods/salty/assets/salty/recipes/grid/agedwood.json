@@ -52,18 +52,18 @@
     "ingredientPattern": "WLW,W_W",
     "ingredients": {
       "W": {
-        "type": "item",
+        "type": "Item",
         "code": "game:plank-aged"
       },
       "L": {
-        "type": "item",
+        "type": "Item",
         "code": "game:cloth-*"
       }
     },
     "width": 3,
     "height": 2,
     "output": {
-      "type": "block",
+      "type": "Block",
       "code": "game:chair-aged"
     }
   }

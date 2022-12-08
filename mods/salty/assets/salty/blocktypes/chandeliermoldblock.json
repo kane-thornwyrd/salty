@@ -31,17 +31,14 @@
   "variantgroups": [
     {
       "code": "materialtype",
-      "states": [
-        "raw",
-        "burned"
-      ]
+      "states": ["raw", "burned"]
     }
   ],
   "attributesByType": {
     "chandeliermold-burned": {
       "requiredUnits": 300,
       "moldrackable": false,
-      "fillHeight": 15,
+      "fillHeight": 14,
       "drop": {
         "type": "block",
         "code": "salty:customchandelier-{metal}-candle0",
@@ -67,15 +64,9 @@
   },
   "blockmaterial": "Ceramic",
   "creativeinventory": {
-    "general": [
-      "*"
-    ],
-    "construction": [
-      "*"
-    ],
-    "salty": [
-      "*"
-    ]
+    "general": ["*"],
+    "construction": ["*"],
+    "salty": ["*"]
   },
   "replaceable": 700,
   "resistance": 1.5,

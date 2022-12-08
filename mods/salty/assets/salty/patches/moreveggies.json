@@ -44,8 +44,8 @@
   {
     "side": "Server",
     "op": "replace",
-    "path": "/cropProps/totalGrowthDays",
-    "value": 25,
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 3,
     "file": "blocktypes/plant/crop/pineapple.json"
   },
   {
@@ -128,8 +128,8 @@
   {
     "side": "Server",
     "op": "replace",
-    "path": "/cropProps/totalGrowthDays",
-    "value": 20,
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 2.5,
     "file": "blocktypes/plant/crop/cassava.json"
   },
   {

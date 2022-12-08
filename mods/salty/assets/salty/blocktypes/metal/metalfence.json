@@ -238,6 +238,24 @@
       "rotation": 90
     }
   },
+  "texturesbyType": {
+    "metalfence-*-*-*": {
+      "horizontal": {
+        "baseByType": {
+          "*": "game:block/metal/ingot/{metal}"
+        },
+        "overlays": [
+          "game:block/slightlydarker"
+        ]
+      },
+      "vertical": {
+        "baseByType": {
+          "*": "game:block/metal/ingot/{metal}"
+        },
+        "rotation": 90
+      }
+    }
+  },
   "sidesolid": {
     "all": false
   },
@@ -246,9 +264,7 @@
   },
   "resistance": 3,
   "lightAbsorption": 0,
-  "vertexFlags": {
-    "reflective": true
-  },
+  "vertexFlags": { "reflective": true },
   "sounds": {
     "place": "game:block/metaldoor-place",
     "hit": "game:block/metaldoor-place",

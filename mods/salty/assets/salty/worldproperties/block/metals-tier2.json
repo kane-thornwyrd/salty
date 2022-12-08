@@ -1,0 +1,41 @@
+{
+  "code": "metal",
+  "variants": [
+    {
+      "code": "bismuthbronze",
+      "meltPoint": 850,
+      "boilPoint": 2300,
+      "density": 7900,
+      "specificHeatCapacity": 0.435,
+      "elemental": false,
+      "tier": 2
+    },
+    {
+      "code": "blackbronze",
+      "meltPoint": 1020,
+      "boilPoint": 2300,
+      "density": 9000,
+      "specificHeatCapacity": 0.435,
+      "elemental": false,
+      "tier": 2
+    },
+    {
+      "code": "brass",
+      "meltPoint": 920,
+      "boilPoint": 1100,
+      "density": 8500,
+      "specificHeatCapacity": 0.377,
+      "elemental": false,
+      "tier": 2
+    },
+    {
+      "code": "tinbronze",
+      "meltPoint": 950,
+      "boilPoint": 2300,
+      "density": 7600,
+      "specificHeatCapacity": 0.435,
+      "elemental": false,
+      "tier": 2
+    }
+  ]
+}
