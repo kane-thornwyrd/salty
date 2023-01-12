@@ -6,12 +6,12 @@
       {
         "type": "item",
         "code": "game:brineportion",
-        "litres": 1,
-        "consumeLitres": 1
+        "litres": 50,
+        "consumeLitres": 50
       },
       {
         "type": "item",
-        "code": "game:ore-quartz",
+        "code": "game:crushed-quartz",
         "quantity": 64,
         "name": "quartz"
       }
