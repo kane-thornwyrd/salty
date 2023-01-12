@@ -10,7 +10,7 @@
       "P": {
         "type": "Block",
         "code": "game:peatbrick",
-        "quantity": 4
+        "quantity": 3
       }
     },
     "width": 3,
@@ -18,6 +18,94 @@
     "output": {
       "type": "Block",
       "code": "game:slantedroofingcornerinner-sod-east-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_P_,PCP",
+    "ingredients": {
+      "C": {
+        "type": "Item",
+        "code": "game:clay-blue",
+        "quantity": 1
+      },
+      "P": {
+        "type": "Block",
+        "code": "game:peatbrick",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:slantedroofingridge-sod-ns-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "CP_,PPP",
+    "ingredients": {
+      "C": {
+        "type": "Item",
+        "code": "game:clay-blue",
+        "quantity": 1
+      },
+      "P": {
+        "type": "Block",
+        "code": "game:peatbrick",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:slantedroofingtip-sod-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "CP,PP",
+    "ingredients": {
+      "C": {
+        "type": "Item",
+        "code": "game:clay-blue",
+        "quantity": 1
+      },
+      "P": {
+        "type": "Block",
+        "code": "game:peatbrick",
+        "quantity": 3
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:slantedroofingcornerouter-sod-east-free",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "__P,CP_,P__",
+    "ingredients": {
+      "C": {
+        "type": "Item",
+        "code": "game:clay-blue",
+        "quantity": 1
+      },
+      "P": {
+        "type": "Block",
+        "code": "game:peatbrick",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:slantedroofing-sod-east-free",
       "quantity": 4
     }
   }

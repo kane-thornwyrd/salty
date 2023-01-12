@@ -14,5 +14,13 @@
       "name": "RightClickPickup"
     },
     "file": "game:blocktypes/bone/drycarcass.json"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "RightClickPickup"
+    },
+    "file": "game:blocktypes/bone/bonyremains.json"
   }
 ]

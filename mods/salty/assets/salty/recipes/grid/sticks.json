@@ -19,7 +19,7 @@
 		"output": {
 			"type": "Item",
 			"code": "game:stick",
-			"quantity": 4
+			"quantity": 2
 		}
 	},
 	{
@@ -29,7 +29,7 @@
 				"type": "item",
 				"code": "game:knife-*",
 				"isTool": true,
-				"toolDurabilityCost": 10
+				"toolDurabilityCost": 100
 			},
 			"F": {
 				"type": "item",
@@ -41,7 +41,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:stick",
-			"quantity": 2
+			"quantity": 4
 		}
 	}
 ]
