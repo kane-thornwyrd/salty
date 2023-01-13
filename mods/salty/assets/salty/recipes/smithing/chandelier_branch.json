@@ -1,0 +1,43 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "iron",
+        "meteoriciron",
+        "platinum",
+        "rhodium",
+        "stainlesssteel",
+        "steel",
+        "titanium"
+      ]
+    },
+    "pattern": [
+      [
+        "###___###",
+        "#########",
+        "###___###",
+        "_________",
+        "###___###",
+        "#########",
+        "###___###"
+      ],
+      [
+        "###___###",
+        "###___###",
+        "###___###",
+        "_________",
+        "###___###",
+        "###___###",
+        "###___###"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "chandelier-branch-{metal}",
+      "quantity": 2
+    }
+  }
+]

@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"blackbronze": "game:block/metal/chandelier/blackbronze"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 1.0, 9.0 ], 
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"east": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"down": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ -1.0, 1.0, -1.0 ], 
+					"to": [ 3.0, 3.0, 3.0 ], 
+					"rotationOrigin": [ -1.0, 1.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#blackbronze", "uv": [ 0.0, 0.5, 4.0, 2.5 ] },
+						"east": { "texture": "#blackbronze", "uv": [ 9.0, 0.5, 13.0, 2.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#blackbronze", "uv": [ 12.0, 0.5, 16.0, 2.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#blackbronze", "uv": [ 4.5, 0.5, 8.5, 2.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#blackbronze", "uv": [ 10.0, 13.0, 13.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#blackbronze", "uv": [ 10.0, 13.0, 13.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Cube3",
+					"from": [ 0.0, 3.0, 0.0 ], 
+					"to": [ 2.0, 4.0, 2.0 ], 
+					"rotationOrigin": [ 0.0, 3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+						"east": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "Cube4",
+					"from": [ -1.0, 4.0, -1.0 ], 
+					"to": [ 3.0, 16.0, 3.0 ], 
+					"rotationOrigin": [ -1.0, 4.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#blackbronze", "uv": [ 0.5, 0.5, 4.5, 12.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+						"east": { "texture": "#blackbronze", "uv": [ 8.5, 0.5, 12.5, 12.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+						"south": { "texture": "#blackbronze", "uv": [ 12.0, 0.5, 16.0, 12.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+						"west": { "texture": "#blackbronze", "uv": [ 8.5, 0.5, 12.5, 12.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1], "reflectiveMode": 1 },
+						"up": { "texture": "#blackbronze", "uv": [ 1.0, 13.0, 4.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#blackbronze", "uv": [ 7.0, 13.0, 10.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

@@ -7,7 +7,7 @@
     }
   },
   "variantgroups": [{ "loadFromProperties": "salty:block/rock" }],
-  "shape": { "base": "block/basic/cube" },
+  "shape": { "base": "game:block/basic/cube" },
   "drawtype": "Cube",
   "blockmaterial": "Stone",
   "creativeinventory": { "general": ["*"], "construction": ["*"], "salty": ["*"] },

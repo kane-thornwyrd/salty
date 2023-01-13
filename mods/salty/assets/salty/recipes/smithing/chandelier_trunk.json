@@ -1,0 +1,40 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "iron",
+        "meteoriciron",
+        "platinum",
+        "rhodium",
+        "stainlesssteel",
+        "steel",
+        "titanium"
+      ]
+    },
+    "pattern": [
+      [
+        "######_#_",
+        "######_#_",
+        "######_#_"
+      ],
+      [
+        "######_#_",
+        "#########",
+        "######_#_"
+      ],
+      [
+        "######_#_",
+        "######_#_",
+        "######_#_"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "chandelier-trunk-{metal}",
+      "quantity": 1
+    }
+  }
+]

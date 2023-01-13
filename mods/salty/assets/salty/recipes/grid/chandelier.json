@@ -1,0 +1,41 @@
+[
+  {
+    "ingredientPattern": "H,T,B",
+    "ingredients": {
+      "H": { 
+        "type": "Item", 
+        "code": "game:hammer-*", 
+        "isTool": true
+      },
+      "T": { "type": "Item", "code": "salty:chandelier-trunk-*",
+      "allowedVariants": [
+        "iron",
+        "meteoriciron",
+        "platinum",
+        "rhodium",
+        "stainlesssteel",
+        "steel",
+        "titanium"
+      ], "name": "metal"
+     },
+      "B": { "type": "Item", "code": "salty:chandelier-branch-*", "quantity": 2,
+      "allowedVariants": [
+        "iron",
+        "meteoriciron",
+        "platinum",
+        "rhodium",
+        "stainlesssteel",
+        "steel",
+        "titanium"
+      ], "name": "metal"
+     }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "salty:customchandelier-{metal}-candle0",
+      "quantity": 1
+    }
+  }
+]

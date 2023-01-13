@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blackbronze": "block/metal/chandelier/blackbronze"
+		"blackbronze": "game:block/metal/chandelier/blackbronze"
 	},
 	"elements": [
 		{

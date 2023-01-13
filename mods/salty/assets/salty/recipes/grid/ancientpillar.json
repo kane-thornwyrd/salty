@@ -67,5 +67,69 @@
       "code": "game:quartzslab-down-free",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "_BB,BMB,BBB",
+    "ingredients": {
+      "B": {
+        "type": "Item",
+        "code": "salty:stonebrick-quartz"
+      },
+      "M": { "type": "Item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:quartzstairs-up-north-free",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BBB,BMB,BBB",
+    "ingredients": {
+      "B": {
+        "type": "Item",
+        "code": "salty:stonebrick-quartz"
+      },
+      "M": { "type": "Item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "salty:stonebricks-quartz",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "H,C,S",
+    "ingredients": {
+      "H": { "type": "Item", "code": "game:hammer-*", "isTool": true },
+      "C": { "type": "Item", "code": "game:chisel-*", "isTool": true },
+      "S": { "type": "Block", "code": "salty:rockpolished-quartz" }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "Item",
+      "code": "salty:stonebrick-quartz",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "H,C,S",
+    "ingredients": {
+      "H": { "type": "Item", "code": "game:hammer-*", "isTool": true },
+      "C": { "type": "Item", "code": "game:chisel-*", "isTool": true },
+      "S": { "type": "Block", "code": "game:quartz-plain" }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "salty:rockpolished-quartz",
+      "quantity": 4
+    }
   }
 ]
