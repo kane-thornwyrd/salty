@@ -1,14 +1,13 @@
 {
   "type": "content",
-  "modid": "salty",
   "name": "Salty",
-  "authors": [
-    "Kane Thornwyrd"
-  ],
-  "translators": [],
-  "description": "Fix my frustration, one recipe at a time.",
+  "modid": "salty",
   "version": "1.0.0",
+  "description": "Fix my frustration, one recipe at a time.",
+  "author": "Kane Thornwyrd",
+  "website": "https://mods.vintagestory.at/kanesalty",
+  "gameversions": ["1.17.10"],
   "dependency": {
-    "game": "1.16.5"
+    "game": "1.17.10"
   }
 }

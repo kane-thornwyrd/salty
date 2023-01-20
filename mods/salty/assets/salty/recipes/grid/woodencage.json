@@ -1,6 +1,6 @@
 [
   {
-    "ingredientPattern": "HPP,SRP,_PP",
+    "ingredientPattern": "HPP,S_P,_PP",
     "ingredients": {
       "H": {
         "type": "Item",
@@ -11,10 +11,6 @@
       "P": {
         "type": "Item",
         "code": "game:plank-*"
-      },
-      "R": {
-        "type": "Item",
-        "code": "game:resin"
       },
       "S": {
         "type": "Item",

@@ -26,20 +26,20 @@
 		"ingredientPattern": "K,F",
 		"ingredients": {
 			"K": {
-				"type": "item",
+				"type": "Item",
 				"code": "game:knife-*",
 				"isTool": true,
 				"toolDurabilityCost": 100
 			},
 			"F": {
-				"type": "item",
+				"type": "Item",
 				"code": "game:firewood"
 			}
 		},
 		"width": 1,
 		"height": 2,
 		"output": {
-			"type": "item",
+			"type": "Item",
 			"code": "game:stick",
 			"quantity": 4
 		}
